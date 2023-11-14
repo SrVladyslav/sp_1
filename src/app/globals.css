@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: white;
+  --gray-primary: #7D7D7D;
+  --gray-secondary: #7D7D7D1A;
+  --purple-1: #9305F2;
+  --purple-2: #7404BF;
+  --purple-3: #55038C;
+  --purple-4: #0D0126;
+  --purple-5: #0F0140;
+
+  --blue: rgb(19, 104, 189);
+  --orange: rgb(226, 141, 30);
+  --green: rgb(18, 160, 25);
+  --gray: rgb(105, 105, 105);
+  --red: rgb(192, 10, 10);
+
+  /* ICON SIZES */
+  --icon-big-extra: 40px;
+  --icon-big: 32px;
+  --icon: 24px;
+  --icon-medium: 20px;
+  --icon-mini: 18px;
+  --icon-micro: 16px;
+  --icon-nano: 14px;
+  --icon-pico: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background:white;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: black;
+  background-color: white;
+}
+.blue {
+  color: var(--blue);
+}
+.gray {
+  color: var(--gray);
+}
+.green {
+  color: var(--green);
+}
+.orange {
+  color: var(--orange);
+}
+.red {
+  color: var(--red);
+}
+.purple {
+  color: var(--purple-3);
+}
+/* ICON SIZES FOR THE SVGs*/
+.icon-big-extra {
+  height: var(--icon-big-extra);
+  width: var(--icon-big-extra);
+  min-height: var(--icon-big-extra);
+  min-width: var(--icon-big-extra);
+}
+.icon {
+  height: var(--icon);
+  width: var(--icon);
+  min-height: var(--icon);
+  min-width: var(--icon);
+}
+.icon-mini {
+  height: var(--icon-mini);
+  width: var(--icon-mini);
+  min-height: var(--icon-mini);
+  min-width: var(--icon-mini);
+}
+.icon-micro {
+  height: var(--icon-micro);
+  width: var(--icon-micro);
+  min-height: var(--icon-micro);
+  min-width: var(--icon-micro);
+}
+.icon-pico {
+  height: var(--icon-pico);
+  width: var(--icon-pico);
+  min-height: var(--icon-pico);
+  min-width: var(--icon-pico);
+}
